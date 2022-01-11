@@ -160,7 +160,7 @@ Modelos de exemplo para configurar uma interface sem vlan, com vlan e qinq.
 
 ### 6.1 Configuração sem VLAN
 <pre>
-interface gigabitethernet 0/1/2
+interface gigabitethernet 0/X/X
 description NOTEBOOK_CONECTADO_OU_AP
 ipv6 enable
 ipv6 address auto link-local
@@ -175,7 +175,7 @@ commit
 
 ### 6.2 Configuração com VLAN de acesso 100
 <pre>
-interface gigabitethernet 0/1/2.25
+interface gigabitethernet 0/X/X.25
 description ID_100_OLT
 ipv6 enable
 ipv6 address auto link-local
@@ -197,7 +197,7 @@ commit
 
 ### 6.3 Configuração com QINQ 25 
 <pre>
-interface Eth-Trunk5.25
+interface Eth-TrunkX.25
  description QINQ_25_OLT_ALL_VLANS_2_4094
  ipv6 enable
  ipv6 address auto link-local
