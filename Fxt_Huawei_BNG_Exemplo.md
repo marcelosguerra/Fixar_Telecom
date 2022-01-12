@@ -195,17 +195,17 @@ quit
 commit
 </pre>
 
-### 6.3 Configuração com QINQ 25 
+### 6.3 Configuração com QINQ 42 
 <pre>
-interface Eth-TrunkX.25
- description QINQ_25_OLT_ALL_VLANS_2_4094
+interface Eth-TrunkX.42
+ description QINQ_42_OLT_ALL_VLANS_2_4094
  ipv6 enable
  ipv6 address auto link-local
  commit
  statistic enable
  8021p 0
- user-vlan 2 4094 qinq 25
  commit
+ user-vlan 2 4094 qinq 42
  pppoe-server bind Virtual-Template 1
  commit
  bas
