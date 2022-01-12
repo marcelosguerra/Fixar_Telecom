@@ -214,6 +214,26 @@ interface Eth-TrunkX.42
  commit
 </pre>
 
+## 7.0 PBR-CGNAT
+<pre>
+acl number 3001
+ rule 10 permit ip source 100.64.0.0 0.0.31.255
 
-## 7.0 Comandos troubleshooting
+traffic classifier TC_CGNAT operator or
+ if-match acl 3001
+
+traffic behavior TB_CGNAT
+ redirect ip-nexthop 172.29.17.5
+
+traffic policy TP_CGNAT
+ share-mode
+ statistics enable
+ classifier TC_CGNAT behavior TB_CGNAT precedence 100
+#
+
+traffic-policy TP_CGNAT inbound global-acl
+
+</pre>
+
+## 8.0 Comandos troubleshooting
 Comandos para visualizar conexões etc.
