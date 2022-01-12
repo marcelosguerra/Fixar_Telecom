@@ -210,7 +210,7 @@ interface Eth-TrunkX.42
  commit
  bas
  #
-  access-type layer2-subscriber default-domain authentication XXXXX_NOME_DOMAIN_CRIADO_IXC
+  access-type layer2-subscriber default-domain authentication ixcprovedor
  commit
 </pre>
 
