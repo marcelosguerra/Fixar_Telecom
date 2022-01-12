@@ -230,9 +230,10 @@ traffic policy TP_CGNAT
  statistics enable
  classifier TC_CGNAT behavior TB_CGNAT precedence 100
 #
+</pre>
 
+<pre>
 traffic-policy TP_CGNAT inbound global-acl
-
 </pre>
 
 ## 8.0 Comandos troubleshooting
