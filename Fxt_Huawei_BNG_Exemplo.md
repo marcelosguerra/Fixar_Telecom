@@ -47,7 +47,7 @@ ipv6-pool statistic include shared-user
 ### 3.6 - Configuração de um pool IPV4 - WAN
 <pre>
 ip pool IPV4_WAN_POOL_PPPOE_01 bas local
-gateway 100.64.128.1 255.255.240.0
+gateway 100.64.128.1 255.255.224.0
 section 0 100.64.128.10 100.64.159.254
 dns-server 177.152.85.218 8.8.8.8
 </pre>
