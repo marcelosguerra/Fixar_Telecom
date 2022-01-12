@@ -136,10 +136,10 @@ aaa
 </pre>
 
 
-### 5.1 Adicionar info no Virtual-Template criado pelo IXC
+### 5.1 Adicionar info no Virtual-Template 
 <pre>
 system-view
-interface virtual-template ID_VIRTUAL_TEMPLATE_CRIADO
+interface virtual-template 1
 ip address unnumbered interface Loopback0
 ppp keepalive interval 20 retransmit 3 datacheck
 pppoe-server service-name-parameter NAS_BNG_01
