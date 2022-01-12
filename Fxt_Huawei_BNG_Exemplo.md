@@ -69,7 +69,7 @@ ipv6 pool IPV6_WAN_POOL_PPPOE_01 bas local
 <pre>
 ipv6 prefix IPV6_PD_PREFIX_PPPOE_01 delegation
     prefix 2804:dec:8200::/40 delegating-prefix-length 56
-    lifetime preferred-lifetime days 1 hours 0 minutes 0 valid-lifetime days 15 hours 0 minutes 0
+    lifetime preferred-lifetime days 2 hours 0 minutes 0 valid-lifetime days 10 hours 0 minutes 0
     frame-ipv6 lease manage
     reserved prefix mac lease
 
