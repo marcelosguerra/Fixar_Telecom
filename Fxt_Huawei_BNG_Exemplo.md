@@ -213,3 +213,7 @@ interface Eth-TrunkX.25
   access-type layer2-subscriber default-domain authentication XXXXX_NOME_DOMAIN_CRIADO_IXC
  commit
 </pre>
+
+
+## 7.0 Comandos troubleshooting
+Comandos para visualizar conexões etc.
