@@ -164,7 +164,7 @@ interface gigabitethernet 0/X/X
 description NOTEBOOK_CONECTADO_OU_AP
 ipv6 enable
 ipv6 address auto link-local
-statistic enable
+statistic enable mode port
 8021p 0
 pppoe-server bind virtual-template 1
 commit
