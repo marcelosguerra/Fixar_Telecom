@@ -136,7 +136,7 @@ aaa
 </pre>
 
 
-### 5.1 Adicionar info no Virtual-Template 
+### 5.1 Criar Virtual-Template 1 
 <pre>
 system-view
 interface virtual-template 1
