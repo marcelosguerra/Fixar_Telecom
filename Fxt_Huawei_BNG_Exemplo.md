@@ -217,7 +217,7 @@ interface Eth-TrunkX.42
 ## 7.0 PBR-CGNAT
 <pre>
 acl number 3001
- rule 10 permit ip source 100.64.0.0 0.0.31.255
+ rule 10 permit ip source 100.64.128.0 0.0.31.255
 
 traffic classifier TC_CGNAT operator or
  if-match acl 3001
