@@ -14,3 +14,8 @@ Codigos
 Codigos
 Codigos
 ```
+
+
+## Figura do comando
+
+![image](https://github.com/user-attachments/assets/93af831b-c67f-4ce9-8191-d0bff9fef900)
